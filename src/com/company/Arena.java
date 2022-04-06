@@ -57,7 +57,7 @@ public class Arena {
 
             int cpuSideOne = rollTheDice();
             int cpuSideTwo = rollTheDice();
-            int cpuResult = userSideOne + userSideTwo;
+            int cpuResult = cpuSideOne + cpuSideTwo;
 
             diceForCpu.add(cpuResult);
 
